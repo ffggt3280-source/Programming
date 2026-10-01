@@ -1,0 +1,57 @@
+body {background-color: white;
+    color: black;
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }   
+
+.cloude {text-align: center;}
+
+.hero {
+  text-align: center;
+  padding: 65px 20px 45px;
+  background: #0d1117;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin: 0 0 12px;
+}
+
+.hero h1 span {
+  color: #8bafff;
+}
+
+.hero-subtitle {
+  color: #9ca3af;
+  font-size: 13px;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+.hero-line {
+  width: 55px;
+  height: 3px;
+  background: #8bafff;
+  border-radius: 5px;
+  margin: 22px auto;
+}
+
+.hero-slogan {
+  color: #d1d5db;
+  font-size: 17px;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero-subtitle {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+}
